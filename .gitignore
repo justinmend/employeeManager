@@ -1,0 +1,5 @@
+_tests_/
+android/
+ios/
+node_modules/
+src/App.js
