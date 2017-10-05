@@ -26,7 +26,7 @@ A mobile application for managing employee information such as their shift and s
 - React Native Command Line Interface. Used to generate new React Native projects.
 - To install, in the terminal, run "npm install -g react-native-cli".
 
-# NOTE: IMPORTANT! You may run into an issue upon trying to run the application, with the error "Print: Entry, ":CFBundleIdentifier", Does Not Exist". https://github.com/facebook/react-native/issues/14368
+# IMPORTANT! REGARDING SETTING UP WORKSPACE. You may run into an issue upon trying to build and run the application, with the error "Print: Entry, ":CFBundleIdentifier", Does Not Exist". For more details go here https://github.com/facebook/react-native/issues/14368
 - To avoid this problem, make sure your workspace folder or project folder name contains no spaces.
 - For example, "music player app" might give you an error. So, a proper workspace or project name would be "musicPlayerApp", which contains no spaces in the title.
 
