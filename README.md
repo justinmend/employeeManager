@@ -46,7 +46,7 @@ A mobile application for managing employee information such as their shift and s
     };
     firebase.initializeApp(config);
 - Create an "App.js" file inside the src folder in your project folder and copy and paste the code below.
-- import React, { Component } from 'react';
+  - import React, { Component } from 'react';
 import { View } from 'react-native';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
@@ -72,7 +72,7 @@ class App extends Component {
 export default App;
 - Place the the copied contents into the "componentWillMount" method.
 - In the firebase website console, go to the "Database section", in "RULES", copy and paste the code below.
-- {
+  - {
     "rules": {
   		"users": {
         "$uid": {
