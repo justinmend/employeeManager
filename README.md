@@ -8,7 +8,9 @@ A mobile application for managing employee information such as their shift and s
 
 ## Installing HomeBrew
 - Used to install node. For more details go to https://brew.sh/
-- In the terminal, copy and paste "/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"", and hit enter.
+- In the terminal, copy and paste the command below
+  - /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  - Press enter to execute.
 - If you already have HomeBrew, update brew to the latest version by running "brew update" in the terminal.
 
 ## Installing Node.js/NPM
@@ -21,7 +23,7 @@ A mobile application for managing employee information such as their shift and s
 - Watches files on the hard drive and waits for them to change.
 - Run, "brew install watchman" to install watchman.
 
-##Installing React Native CLI
+## Installing React Native CLI
 - React Native Command Line Interface. Used to generate new React Native projects.
 - To install, in the terminal, run "npm install -g react-native-cli".
 
