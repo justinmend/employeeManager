@@ -32,15 +32,17 @@ A mobile application for managing employee information such as their shift and s
 
 # 6. IMPORTANT! REGARDING SETTING UP WORKSPACE. You may run into an issue upon trying to build and run the application, with the error "Print: Entry, ":CFBundleIdentifier", Does Not Exist". For more details go here https://github.com/facebook/react-native/issues/14368
 - To avoid this problem, make sure your workspace folder or project folder name contains no spaces.
-- For example, "music player app" might give you an error. So, a proper workspace or project name would be "musicPlayerApp", which contains no spaces in the title.
+- For example, "music player app" might give you an error. So, a proper workspace or project names would be "musicPlayerApp", which contains no spaces in the title.
 
 # 7. Cloning the repository
 - To clone this Android version of this mobile application's project repository, in the command prompt go inside your workspace folder and copy and paste the command below in the command prompt :
   - git clone https://github.com/justinmend/YelpCampDeployed.git
+  - Press enter to then execute
 
 # 8. Installing Dependencies
 - Make sure to install the required packages to properly run the application.
-  - To do that, in the command prompt, while inside the project folder where the "package.json" file should be located, type "npm install". This will install all the required dependencies.
+  - To do that, in the command prompt, while inside the project folder where the "package.json" file should be located, type "npm install".
+  - This will install all the required dependencies.
 
 # 9. Setting up FireBase
 - Create a google account if you don't already have one. Go to https://firebase.google.com/
@@ -78,7 +80,7 @@ class App extends Component {
   }
 }
 export default App;
-- Place the the copied contents into the "componentWillMount" method.
+  - Place the the copied contents into the "componentWillMount" method.
 - In the firebase website console, go to the "Database section", in "RULES", copy and paste the code below.
   - {
     "rules": {
@@ -90,9 +92,9 @@ export default App;
       }
     }
   }
-- Click "PUBLISH" to activate changes.
+  - Click "PUBLISH" to activate changes.
 
-# NOTE: IMPORTANT! Installing Genymotion for Android Simulator if you have a AMD CPU.
+# NOTE: IMPORTANT! Installing Genymotion for Android Simulator if you have an AMD CPU.
 - You will need to install Genymotion Application if you have an AMD CPU to avoid running into complications trying to use the built in Android simulator in Android Studio.
 - Android Studio Simulator only works well with Intel CPU.
 - To install Genymotion for personal use, go to https://www.genymotion.com/fun-zone/.
@@ -103,12 +105,12 @@ export default App;
 - IMPORTANT! You might get the error message "Failed to sync Gradle project 'android'".
   - Go ahead and click the "install missing platform(s) and sync project" and "install build tools 23.0.1 and sync project" or other suggested error links that pop up.
 
-## 10.1 A For Genymotion simulator
+## 10.1A For Genymotion simulator
 - In Genymotion, create your choice of Android Simulator to use if you haven't already.
 - In the command prompt, inside the project folder, execute "npm start" keeping it open in the background the whole time.
 - In the Genymotion application, run the Android simulator you created.
 
-## 10.1 B For Android Studio simulator
+## 10.1B For Android Studio simulator
 - In Android Studio, in "Tools", click "AVD Manager"
   - Create a virtual device of your choice with screen size right around 5 inches.
   - For system image, download and install "Marshmallow" with API Level 23.
