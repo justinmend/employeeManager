@@ -1,7 +1,7 @@
 # Employee Manager
 A mobile application for managing employee information such as their shift and schedule availability.
 
-# WINDOWS INSTALLATION
+# WINDOWS INSTALLATION ONLY - See iOS branch for MAC OSX installation
 ## 1. Installing Java SDK
 - Go to the Java SE Development Kit 8 Downloads http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 - Download the "Windows x64" version in "Java SE Development Kit 8u144"
@@ -94,7 +94,7 @@ export default App;
   }
   - Click "PUBLISH" to activate changes.
 
-# NOTE: IMPORTANT! Installing Genymotion for Android Simulator if you have an AMD CPU.
+# IMPORTANT! Installing Genymotion for Android Simulator if you have an AMD CPU.
 - You will need to install Genymotion Application if you have an AMD CPU to avoid running into complications trying to use the built in Android simulator in Android Studio.
 - Android Studio Simulator only works well with Intel CPU.
 - To install Genymotion for personal use, go to https://www.genymotion.com/fun-zone/.
