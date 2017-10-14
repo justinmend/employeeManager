@@ -77,7 +77,7 @@ class EmployeeEdit extends Component {
           onAccept={this.onAccept.bind(this)}
           onDecline={this.onDecline.bind(this)}
         >
-          Are you sure you want to delete this?
+          Are you sure you want to fire {this.props.employee.name}?
         </Confirm>
       </Card>
     );

@@ -31,16 +31,16 @@ class EmployeeList extends Component {
   render() {
     console.log(this.props);
     return (
-        <ListView
-          enableEmptySections
-          dataSource={this.dataSource}
-          renderRow={this.renderRow}
-        />
+      <ListView
+        enableEmptySections
+        dataSource={this.dataSource}
+        renderRow={this.renderRow}
+      />
     );
   }
 }
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   const employees = _.map(state.employees, (val, uid) => {
     return { ...val, uid };
   });

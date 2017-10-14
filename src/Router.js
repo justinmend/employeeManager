@@ -1,4 +1,5 @@
 import React from 'react';
+import firebase from 'firebase';
 import { Scene, Router, Actions } from 'react-native-router-flux';
 import LoginForm from './components/LoginForm';
 import EmployeeList from './components/EmployeeList';
@@ -18,10 +19,12 @@ const RouterComponent = () => {
           <Scene
           key="employeeList"
           onRight={() => Actions.employeeCreate()}
-          onLeft={() => null}
+          onLeft={() => firebase.auth().signOut().then(() => Actions.pop())}
           rightTitle="Add"
+          leftTitle="Logout"
           component={EmployeeList}
           title="Employees"
+          titleStyle={{ paddingLeft: 70 }}
           initial
           />
           <Scene key="employeeCreate" component={EmployeeCreate} title="Create Employee" />
